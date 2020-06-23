@@ -13,7 +13,7 @@ def render_watermark(image_path, watermark_path, result_path):
     result.paste(image, (0, 0))
     result.paste(watermark, (0, 0), mask=watermark)
     result = result.convert("RGB")
-    result = result.resize((800, 800), Image.BICUBIC)
+    result = result.resize((1024, 1024), Image.BICUBIC)
     result.save(result_path, quality=90)
 
 
