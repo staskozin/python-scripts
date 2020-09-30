@@ -14,3 +14,18 @@
 `python download_images.py images.txt destination/path`
 
 Использовал чтобы скачать альбом из ВК.
+
+## square_images.py
+Делает картинки квадратными. Работает только с jpg с белым фоном.
+
+```
+python square_images.py -s source.jpg -r result.jpg
+# Одна картинка
+```
+
+```
+python square_images.py -m -s source_dir -r result_dir
+# Все картинки в директории
+```
+
+Использовал для фотографий в интернет-магазине.
