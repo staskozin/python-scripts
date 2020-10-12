@@ -29,3 +29,18 @@ python square_images.py -m -s source_dir -r result_dir
 ```
 
 Использовал для фотографий в интернет-магазине.
+
+## resize_images.py
+Подгоняет картинки под указанный размер. Например, картика 2459×2873 при указанном размере 1600 станет 1369×1600 Работает только с jpg.
+
+```
+python resize_images.py -s source.jpg -r result.jpg -ms 1600
+# Одна картинка
+```
+
+```
+python resize_images.py -m -s source_dir -r result_dir -ms 1600
+# Все картинки в директории
+```
+
+Использовал для фотографий в интернет-магазине.
